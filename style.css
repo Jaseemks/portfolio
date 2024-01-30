@@ -1,0 +1,32 @@
+.head
+{
+    text-align: center; color: coral;
+}
+.mainbody
+{
+    background-color: rgb(249, 247, 243);
+    text-decoration: aqua;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mainbodycol2
+{
+    justify-content: center;
+}
+.mainbodycol1
+{
+   display: block;
+}
+.col-6
+{
+    background-color: rgb(62, 239, 103);
+}
+
+.p-3
+{
+    padding-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    column-gap: 15px;
+}
