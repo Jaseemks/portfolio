@@ -1,32 +1,64 @@
-.head
-{
-    text-align: center; color: coral;
-}
 .mainbody
 {
-    background-color: rgb(249, 247, 243);
-    text-decoration: aqua;
     display: flex;
     justify-content: space-between;
-    
-}
-.mainbodycol2
-{
-    justify-content: center;
-}
-.mainbodycol1
-{
-   display: block;
-}
-.col-6
-{
-    background-color: rgb(62, 239, 103);
+    margin: 10px;
 }
 
-.p-3
+.c1
 {
-    padding-left: 10px;
-    margin-right: 10px;
-    gap: 10px;
-    column-gap: 15px;
+    column-span: 6;
+     background-color: rgb(251, 237, 161); 
+     height: 600px;
+      width: 850px;
+      border-bottom: 10px;
 }
+.c2
+{
+    column-span: 6;
+    background-color: rgb(247, 172, 131); 
+    height: 600px;
+     width: 850px;   
+}
+.c11
+{
+    column-span: 6;
+    height: 300px;
+     width: 450px;   
+}
+
+.shadow
+{
+    background-color: rgb(21, 165, 144)
+    height: 480px; 
+    margin-top: 170px;
+     margin-right;
+     400px;margin-left: 20px; 
+}
+
+.custom-navbar {
+    background: linear-gradient(to right, #fafc94, #e54c22);
+    border: 1px solid rgb(57, 113, 81); /* Adjust border color as needed */
+    border-radius: 10px; /* Adjust border radius as needed for rounded corners */
+ }
+
+ .card-text
+ {
+    text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 25px;
+ }
+
+ .cc
+ {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: solid;
+ }
+
+ .navbar-brand
+ {
+    border-radius: 5px;
+    border-color: black;
+ }
