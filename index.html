@@ -66,10 +66,9 @@
           <p class="text-center">at</p>
           <p class="text-center">Syscon Software and Technologies</p>
           <p class="cc">Qualifications</p>
-          <p class="text-center">BE Computer Science and Engineer</p>
-          <p class="text-center">from</p>
-          <p class="text-center">Anna University</p>
-        </div>
+          <p class="text-center">BE Computer Science and Engineering</p>
+          <p class="text-center">from Anna University</p>
+        </div> 
       </div>
       </div>
         <footer>
@@ -87,12 +86,43 @@
                           <li><a href="#mainbody">Home</a></li>
                           <li><a href="#portfolio">Portfolio</a></li>
                           <li><a href="#about">About Me</a></li>
-                          <li><a href="#contact">Contact</a></li>
+                          <li><a href="./login.html">Contact</a></li>
                       </ul>
                   </div>
                   
-                  <div class="footer-section social">
-                      <h2>Connect with Me</h2>
+                  <div class="footer-section social" style="align-content: center;" >
+                      <h2 style="text-shadow: rgb(235, 232, 232);" >Connect with Me</h2>
+                      <form class="needs-validation" >
+                        <div class="form-row" style="margin-left: 600px;">
+                          <div class="col-md-4 mb-3" >
+                            <label for="validationTooltip01">First name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="First name">
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTooltip02">Last name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last name">
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTooltipUsername">Email</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="email" placeholder="email">
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTooltipUsername">Contact Number</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="mobile" placeholder="Mobile">
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationTooltipUsername">Place</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="place" placeholder="Place">
+                            </div>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-success" onclick="validate()">Submit</button>
+                      </form>
                       <a href="#" target="_blank" rel="noopener noreferrer"><img src="./insta.jpeg" alt="Social Icon 1" style="width: 25px;height: 25px;border-radius: 5px;"></a>
                       <a href="#" target="_blank" rel="noopener noreferrer"><img src="./fb.png" alt="Social Icon 2"  style="width: 25px;height: 25px;border-radius: 5px;></a>
                       <!-- Add more social icons as needed -->
@@ -105,6 +135,7 @@
       </footer>
       </div>
     </div>
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html> 
